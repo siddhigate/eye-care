@@ -10,10 +10,11 @@
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="./src/modal/modal.css">
 
         <title>Nav</title>
     </head>
-    <body>
+    <body onload="first()">
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
@@ -37,7 +38,7 @@
             </nav>
         </header>
 
-        
+        <!-- =======TIMER============== -->
         <div class="container-center">
             <p>Take care of your eyes</p>
             <figure class="clock">
@@ -69,11 +70,28 @@
               </div>
         </div>
 
+        <!--===== MODAL =====-->
+        <div id="open-modal" class="modal-window">
+          <div class="modal-content">
+            <a href="#" title="Close" class="modal-close">Close</a>
+            <h1>Take care👋</h1>
+            <div>Look 20 feet away for 20 seconds.</div>
+            <div class="btn-center">
+              <button class="done-btn">Done</button>
+            </div>
+            
+            </div>
+            
+            </div>
+  
+        </div>
+  
 
         <!--===== MAIN JS =====-->
         <script src="./app.js"></script>
         <script src="./src/timer/controls.js"></script>
         <script src="./src/timer/progress.js"></script>
         <script src="./src/timer/timer.js"></script>
+        <script src="./src/modal/modal.js"></script>
     </body>
 </html>

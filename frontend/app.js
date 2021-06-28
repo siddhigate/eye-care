@@ -24,3 +24,7 @@ function linkAction(){
   navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
+
+const first = () => {
+    modal_window.style.display = "none";
+}
