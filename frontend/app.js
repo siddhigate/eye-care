@@ -26,5 +26,5 @@ function linkAction(){
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
 const first = () => {
-    modal_window.style.display = "none";
+    // modal_window.style.display = "none";
 }
