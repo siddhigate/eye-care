@@ -1,3 +1,5 @@
+const modal_window = document.querySelector("#open-modal");
+
 const pause_Btn = document.querySelector(".pause");
 const reset_Btn = document.querySelector(".reset");
 
@@ -15,10 +17,12 @@ let initial, totalsecs, perc, paused, mins, seconds;
 let isbreak;
 
 startBtn.addEventListener("click", () => {
-  mins = 1;
+  mins = 20;
   isbreak=false;
   
   pause_Btn.style.display = "initial";
+  pauseBtn.textContent = "pause";
+  pauseBtn.classList.remove("resume");
   reset_Btn.style.display = "initial";
   
   startTimer(mins);
@@ -42,17 +46,18 @@ function decremenT() {
   } else {
     mins = 0;
     seconds = 0;
-    bell.play();
 
     if(isbreak){
       startTimer(20);
       isbreak = false;
     }
     else{
-      startTimer(5);
+      bell.play();
+      console.log(modal_window);
+      modal_window.style.display = "block";
+      window.location.hash = '#open-modal';
       isbreak = true;
-
-
+      startTimer(2);
     }
 
 

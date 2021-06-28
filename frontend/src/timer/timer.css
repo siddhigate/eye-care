@@ -82,6 +82,7 @@ label {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.25rem;
+  cursor: pointer;
 }
 .break {
   background: rgb(0, 199, 116);
@@ -95,6 +96,8 @@ label {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.25rem;
+  cursor: pointer;
+
 }
 .pause {
   background: #DBEAFE;
@@ -103,6 +106,8 @@ label {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.25rem;
+  cursor: pointer;
+
 }
 .resume {
   background: #8B5CF6;
@@ -111,6 +116,8 @@ label {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.25rem;
+  cursor: pointer;
+
 }
 
 .clock {
