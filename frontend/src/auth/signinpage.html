@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         
-        <link rel="stylesheet" href="./auth.css">
         <link rel="stylesheet" href="../../style.css">
+        <link rel="stylesheet" href="./auth.css">
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="./src/modal/modal.css">
@@ -14,7 +14,7 @@
 
         <title>Nav</title>
     </head>
-    <body onload="first()">
+    <body onload="signinonload()">
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
@@ -24,11 +24,10 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="../../index.html" class="nav__link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">Dashboard</a></li>
-                        <li class="nav__item signup"><a href="#skills" class="nav__link">Signup</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Signout</a></li>
-
+                        <li class="nav__item signin"><a href="./signinpage.html" class="nav__link active">Signin</a></li>
+                        <li class="nav__item signout"><a href="../../index.html" class="nav__link">Signout</a></li>
                     </ul>
                 </div>
 
@@ -43,7 +42,7 @@
         <div class="container">
 		
             <div class="login-content">	
-                <form action="index.html">
+                <form id="signinform">
                     
                     <h2 class="title">Sign in</h2>
                        <div class="input-div one">
@@ -51,8 +50,8 @@
                                   <i class="fas fa-user"></i>
                           </div>
                           <div class="div">
-                                  <h5>Username</h5>
-                                  <input type="text" class="input">
+                                  <h5>Email</h5>
+                                  <input type="text" class="input" id="email-signin">
                           </div>
                        </div>
                        <div class="input-div pass">
@@ -61,11 +60,11 @@
                           </div>
                           <div class="div">
                                <h5>Password</h5>
-                               <input type="password" class="input">
+                               <input type="password" class="input" id="password-signin">
                        </div>
                     </div>
                     
-                    <input type="submit" class="btn" value="Login">
+                    <input type="submit" class="btn" value="Sign in" id="btn-signin">
                     <a href="./signuppage.html" class="signin-link">Don't have an account sign up?</a>
                 </form>
             </div>
@@ -75,5 +74,6 @@
         <!--===== MAIN JS =====-->
         <script src="../../app.js"></script>
         <script src="./authuicontroller.js"></script>
+        <script src="./signincontroller.js"></script>
     </body>
 </html>

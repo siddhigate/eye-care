@@ -25,6 +25,22 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction));
 
+// const first = () => {
+//     modal_window.style.display = "none";
+// }
+
+const signout_btn = document.querySelector(".signout");
+const signin_btn = document.querySelector(".signin");
+const isLoggedIn = false;
 const first = () => {
-    // modal_window.style.display = "none";
+    console.log("hello");
+    modal_window.style.display = "none";
+    if(isLoggedIn){
+        signout_btn.style.display = "initial";
+        signin_btn.style.display = "none";
+    }
+    else{
+        signout_btn.style.display = "none";
+        signin_btn.style.display = "inital";
+    }
 }
