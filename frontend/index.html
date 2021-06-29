@@ -5,14 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="./src/timer/timer.css">
+        <link rel="stylesheet" href="./src/css/timer.css">
         
 
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="./src/modal/modal.css">
+        <link rel="stylesheet" href="./src/css/modal.css">
 
-        <title>Nav</title>
+        <title>Eye care</title>
     </head>
     <body onload="first()">
         <!--===== HEADER =====-->
@@ -25,8 +25,8 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">Dashboard</a></li>
-                        <li class="nav__item signin"><a href="./src/auth/signinpage.html" class="nav__link">Signin</a></li>
+                        <li class="nav__item"><a href="./src/pages/dashboard.html" class="nav__link">Dashboard</a></li>
+                        <li class="nav__item signin"><a href="./src/pages/signin.html" class="nav__link">Signin</a></li>
                         <li class="nav__item signout" ><a href="#" class="nav__link">Signout</a></li>
 
                     </ul>
@@ -90,9 +90,9 @@
 
         <!--===== MAIN JS =====-->
         <script src="./app.js"></script>
-        <script src="./src/timer/controls.js"></script>
-        <script src="./src/timer/progress.js"></script>
-        <script src="./src/timer/timer.js"></script>
-        <script src="./src/modal/modal.js"></script>
+        <script src="./src/controllers/timer/controls.js"></script>
+        <script src="./src/controllers/timer/progress.js"></script>
+        <script src="./src/controllers/timer/timer.js"></script>
+        <script src="./src/controllers/modal/modal.js"></script>
     </body>
 </html>
