@@ -92,7 +92,7 @@ label {
   background: #DBEAFE;
   color: #000000;
   width: 7rem;
-  display:none;
+  /* display:none;   */
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.25rem;
@@ -102,7 +102,7 @@ label {
 .pause {
   background: #DBEAFE;
   width: 7rem;
-  display:none;
+  /* display:none; */
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   border-radius: 0.25rem;

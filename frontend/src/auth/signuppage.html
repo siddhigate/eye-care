@@ -14,7 +14,7 @@
 
         <title>Nav</title>
     </head>
-    <body onload="first()">
+    <body onload="signuponload()">
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
@@ -24,10 +24,10 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="../../index.html" class="nav__link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">Dashboard</a></li>
-                        <li class="nav__item signup"><a href="#skills" class="nav__link">Signup</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Signout</a></li>
+                        <li class="nav__item signin"><a href="./signuppage.html" class="nav__link active">Signup</a></li>
+                        <li class="nav__item signout"><a href="../../index.html" class="nav__link">Signout</a></li>
 
                     </ul>
                 </div>
@@ -77,7 +77,7 @@
                        </div>
                     </div>
                     
-                    <input type="submit" class="btn" value="Login">
+                    <input type="submit" class="btn" value="Sign up">
                     <a href="./signinpage.html" class="signin-link">Already have an account sign in?</a>
                 </form>
             </div>
@@ -87,5 +87,6 @@
         <!--===== MAIN JS =====-->
         <script src="../../app.js"></script>
         <script src="./authuicontroller.js"></script>
+        <script src="./signupcontroller.js"></script>
     </body>
 </html>

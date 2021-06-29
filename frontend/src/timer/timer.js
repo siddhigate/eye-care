@@ -19,7 +19,7 @@ let isbreak;
 startBtn.addEventListener("click", () => {
   mins = 20;
   isbreak=false;
-  
+
   pause_Btn.style.display = "initial";
   pauseBtn.textContent = "pause";
   pauseBtn.classList.remove("resume");
