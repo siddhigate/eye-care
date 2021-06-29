@@ -1,5 +1,5 @@
 *{
-	/* padding: 0; */
+	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
@@ -223,4 +223,14 @@ form{
 	.login-content{
 		justify-content: center;
 	}
+}
+
+.nav_div_1{
+	padding: auto;
+margin: auto;
+}
+
+.nav__menu{
+	padding: auto;
+margin: auto;
 }

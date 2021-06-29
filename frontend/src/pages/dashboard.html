@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="../../style.css">
-        <link rel="stylesheet" href="../css/timer.css">
+        <link rel="stylesheet" href="../css/dashboard.css">
         
 
         <!-- =====BOX ICONS===== -->
@@ -14,11 +14,11 @@
 
         <title>Nav</title>
     </head>
-    <body onload="first()">
+    <body onload="onloaddash()">
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
-                <div>
+                <div class="nav_div_1">
                     <a href="#" class="nav__logo">Eye care</a>
                 </div>
 
@@ -26,8 +26,8 @@
                     <ul class="nav__list">
                         <li class="nav__item"><a href="../../index.html" class="nav__link ">Home</a></li>
                         <li class="nav__item"><a href="./dashboard.html" class="nav__link active">Dashboard</a></li>
-                        <li class="nav__item signin"><a href="./src/pages/signin.html" class="nav__link">Signin</a></li>
-                        <li class="nav__item signout" ><a href="#" class="nav__link">Signout</a></li>
+                        <li class="nav__item signin"><a href="./signin.html" class="nav__link">Signin</a></li>
+                        <li class="nav__item signout" ><a href="../../index.html" class="nav__link">Signout</a></li>
 
                     </ul>
                 </div>
@@ -40,10 +40,11 @@
 
         <!-- =======TIMER============== -->
         <div class="container-center">
-            <p>Take care of your eyes</p>
+            <p>Score</p>
+            <!-- <img src="/"> -->
         </div>
 
         <!--===== MAIN JS =====-->
-        
+        <script src="../controllers/dashboard/onloaddashboard.js"></script>
     </body>
 </html>

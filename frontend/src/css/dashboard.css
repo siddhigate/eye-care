@@ -1,0 +1,40 @@
+
+.container-center{
+    /* margin:auto;
+    width:50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: auto; */
+    margin-left: auto;
+    text-align: center;
+    /* margin-top: rem; */
+}
+
+.container-center{
+    margin-top: 5rem;
+}
+
+p{
+      margin-top: 3rem;
+      margin-bottom: 8rem;
+      font-size: 1.5rem;
+}
+h1 {
+  margin: 15px 0;
+  font-weight: 900;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+.nav_div_1{
+	padding: auto;
+margin: auto;
+}
+
+.nav__menu{
+	padding: auto;
+margin: auto;
+}
