@@ -31,11 +31,12 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 
 const signout_btn = document.querySelector(".signout");
 const signin_btn = document.querySelector(".signin");
-const isLoggedIn = false;
-const first = () => {
-    console.log("hello");
+
+const index_onload = () => {
+
     modal_window.style.display = "none";
-    if(isLoggedIn){
+
+    if(localStorage.getItem("token")){
         signout_btn.style.display = "initial";
         signin_btn.style.display = "none";
     }

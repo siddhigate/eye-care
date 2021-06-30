@@ -61,17 +61,6 @@ function decremenT() {
     }
 
 
-    // let btn = localStorage.getItem("btn");
-
-    if (btn === "focus") {
-      startBtn.textContent = "start break";
-      startBtn.classList.add("break");
-      // localStorage.setItem("btn", "break");
-    } else {
-      startBtn.classList.remove("break");
-      startBtn.textContent = "start focus";
-      // localStorage.setItem("btn", "focus");
-    }
     startBtn.style.transform = "scale(1)";
   }
 }

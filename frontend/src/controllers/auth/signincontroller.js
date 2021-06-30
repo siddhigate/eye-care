@@ -17,7 +17,7 @@ signinbtn.addEventListener("click", () => {
     signinbtn.value = "Loading";
 	signinbtn.style.background = "#BFDBFE";
 
-	var url = "http://localhost:8000/api/signin";
+	var url = `${api}/signin`;
 
 	var data = {};
 	data.email  = email.value;
@@ -49,6 +49,7 @@ signinbtn.addEventListener("click", () => {
 				localStorage.setItem("id", users.user.id);
 				localStorage.setItem("score", users.user.score);
 				localStorage.setItem("name", users.user.name);
+				localStorage.setItem("email", users.user.email);
 				
 				
 				window.location.href="../../index.html";	
