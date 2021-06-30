@@ -122,3 +122,14 @@ small {
   justify-content: center;
   align-items: center;
 }
+
+.img-modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.text-center{
+  text-align:center;
+}

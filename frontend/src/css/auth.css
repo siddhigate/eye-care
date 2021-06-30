@@ -149,6 +149,15 @@ form{
 	margin-bottom: 4px;
 }
 
+.error-msg{
+	display:none;
+	text-align: right;
+	text-decoration: none;
+	color: #DC2626;
+	font-size: 0.9rem;
+	transition: .3s;
+	margin-top:2rem;
+}
 .signin-link{
 	display: block;
 	text-align: center;
@@ -170,7 +179,8 @@ form{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #60A5FA, #3B82F6, #93C5FD);
+	background: #3B82F6;
+	/* background-image: linear-gradient(to right, #60A5FA, #3B82F6, #93C5FD); */
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
@@ -180,6 +190,7 @@ form{
 	cursor: pointer;
 	transition: .5s;
 	margin-top:2.5rem;
+	text-align: center;
 }
 .btn:hover{
 	background-position: right;

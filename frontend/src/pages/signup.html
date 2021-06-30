@@ -52,7 +52,7 @@
                         </div>
                         <div class="div">
                                 <h5>Email</h5>
-                                <input type="text" class="input">
+                                <input type="text" class="input" id="email-signup">
                         </div>
                      </div>
                     
@@ -62,7 +62,7 @@
                           </div>
                           <div class="div">
                                   <h5>Username</h5>
-                                  <input type="text" class="input">
+                                  <input type="text" class="input" id="username-signup">
                           </div>
                        </div>
                     
@@ -72,11 +72,11 @@
                           </div>
                           <div class="div">
                                <h5>Password</h5>
-                               <input type="password" class="input">
+                               <input type="password" class="input" id="password-signup">
                        </div>
                     </div>
-                    
-                    <input type="submit" class="btn" value="Sign up">
+                    <p class="error-msg"></p>
+                    <input class="btn" value="Sign up" id="btn-signup">
                     <a href="./signin.html" class="signin-link">Already have an account sign in?</a>
                 </form>
             </div>
@@ -87,5 +87,7 @@
         <script src="../../app.js"></script>
         <script src="../controllers/auth/authuicontroller.js"></script>
         <script src="../controllers/auth/signupcontroller.js"></script>
+        
+        <script src="../controllers/config.js"></script>
     </body>
 </html>

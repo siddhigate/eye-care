@@ -14,7 +14,7 @@
 
         <title>Eye care</title>
     </head>
-    <body onload="first()">
+    <body onload="index_onload()">
         <!--===== HEADER =====-->
         <header class="l-header">
             <nav class="nav bd-grid">
@@ -69,14 +69,16 @@
                 <button class="pause">pause</button>
               </div>
         </div>
-
+        
         <!--===== MODAL =====-->
         <div id="open-modal" class="modal-window">
           <div class="modal-content">
             <a href="#" title="Close" class="modal-close">Close</a>
             <h1>Take care👋</h1>
-            <!-- <img src="./src/images/exercise.jpeg"> -->
-            <div>Look 20 feet away for 20 seconds.</div>
+            <div class="img-modal">
+              <img src="./src/images/exercise.png" width="350" height="150" class="img-modal"> 
+            </div>   
+            <div class="text-center">Look 20 feet away for 20 seconds.</div>
             <div class="btn-center">
               <button class="done-btn">Done</button>
             </div>
@@ -94,5 +96,7 @@
         <script src="./src/controllers/timer/progress.js"></script>
         <script src="./src/controllers/timer/timer.js"></script>
         <script src="./src/controllers/modal/modal.js"></script>
+        <script src="./src/controllers/config.js"></script>
+        <script src="./src/controllers/auth/signoutcontroller.js"></script>
     </body>
 </html>
