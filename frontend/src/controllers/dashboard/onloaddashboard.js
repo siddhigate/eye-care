@@ -22,8 +22,8 @@ const onloaddash = () => {
 const getData = () => {
 
     var id = localStorage.getItem("id");
-	var url = `http://localhost:8000/api/user/${id}`;
-
+	var url = `${api}/user/${id}`;
+    console.log(url)
     
 	var xhr  = new XMLHttpRequest()
 	xhr.open('GET', url, true)

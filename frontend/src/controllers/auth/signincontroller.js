@@ -51,7 +51,8 @@ signinbtn.addEventListener("click", () => {
 				localStorage.setItem("name", users.user.name);
 				localStorage.setItem("email", users.user.email);
 				
-				
+				console.log(localStorage.getItem("token"))
+
 				window.location.href="../../index.html";	
 				signinbtn.value = "Sign in";	
 				signinbtn.style.background = "#3B82F6";	

@@ -14,7 +14,7 @@ const update = () => {
     console.log("update");
     var id = localStorage.getItem("id");
     var token = localStorage.getItem("token");
-	var url = `http://localhost:8000/api/user/${id}`;
+	var url = `${api}/user/${id}`;
 
 
 	var data = {};
