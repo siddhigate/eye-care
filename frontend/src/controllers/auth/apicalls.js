@@ -65,7 +65,7 @@ const update = () => {
 	xhr.open("PUT", url, true);
 	xhr.setRequestHeader('Content-type','application/json; charset=utf-8');
     
-    xhr.setRequestHeader('Authorization','Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImI3MTc4ODEwLTI3MDktNDNhMy1iNjNjLTlhNTM3MDUyNGQ0OCIsImlhdCI6MTYyNDk4OTAwNX0.ISux9aFQPlbL-lHICg1zaliX-JvUZc6NkMiq5hfLwUk');
+    xhr.setRequestHeader('Authorization','Bearer ' + localStorage.getItem("token"));
 	xhr.onload = function () {
 		var users = JSON.parse(xhr.responseText);
 		if (xhr.readyState == 4 && xhr.status == "201") {
