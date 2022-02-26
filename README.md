@@ -17,7 +17,7 @@
 ### Score based on your discipline
 - Every time you follow this rule your score will increase.
 - As your score increases, your flower will bloom
-![dashboard.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1625082493116/BeNBKoO9H.png)
+![dashboard.png](./assets/eyecareflower.gif)
 
 ## Technologies
 - JavaScript
