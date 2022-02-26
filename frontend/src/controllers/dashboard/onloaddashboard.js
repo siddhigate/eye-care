@@ -44,7 +44,7 @@ const getData = () => {
 
 const updateFlower = (score) => {
 
-    switch(score){
+    switch(Number(score)){
 
         case 0:  flower_pic.src="../images/plant2.png"
                   break;
