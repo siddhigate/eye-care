@@ -31,7 +31,7 @@ The main challenge is to stay disciplined, for that:
 - ```Node.js, Express.js, HarperDB``` for building the backend.
 - ```Heroku``` for deplying the backend
 
-## Demo
+## Demo snapshots
 ### Reminder to follow the 20:20:20 rule
 ![timer.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1625082434709/URH_2eY_J.png)
 ![reminder.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1625082459131/DXsxaLNkG.png)
