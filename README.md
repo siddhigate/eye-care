@@ -31,6 +31,7 @@ The main challenge is to stay disciplined, for that:
 - ```Node.js, Express.js, HarperDB``` for building the backend.
 - ```Heroku``` for deplying the backend
 
+
 ## Demo snapshots
 ### Reminder to follow the 20:20:20 rule
 ![timer.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1625082434709/URH_2eY_J.png)
@@ -40,3 +41,13 @@ The main challenge is to stay disciplined, for that:
 - Every time you follow this rule your score will increase.
 - As your score increases, your flower will bloom
 ![dashboard.png](./assets/eyecareflower.gif)
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Useful links 🔗:
+- [Live app](https://eyecare-app.netlify.app/)
+- [Blog post link](https://blog.siddhigate.me/eye-care-an-app-that-will-help-you-to-take-care-of-your-eyes)
+- [GitHub repository](https://github.com/siddhigate/eye-care)
